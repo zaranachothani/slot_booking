@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import { useState } from "react"
+// import Slot5 from './Slot5';
+import Slot4 from './Slot4';
+// import Slot3 from './Slot3';
+// import Slot1 from './Slot1';
+// import Slot2 from './Slot2';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Slot1/> */}
+      {/* <Slot2/> */}
+      {/* <Slot3/> */}
+      <Slot4/>
+      {/* <Slot5/> */}
+    </>
   );
 }
 
